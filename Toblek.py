@@ -233,7 +233,7 @@ def showMovies(sSearch = ''):
     sPattern = '<span style="list-style-type:none;".+?>\s*<a href="([^"]+)">\s*([^"]+)<.+?i>'
     oParser = cParser()
     aResult = oParser.parse(sHtmlContent, sPattern)
-    VSlog(str(aResult))
+    VSlog(str(aResult))#pour comprendre les log et trouver des solutions
 
     if (aResult[0] == False):
         oGui.addText(SITE_IDENTIFIER)
@@ -248,7 +248,7 @@ def showMovies(sSearch = ''):
                 break
 
             sUrl2 = aEntry[0]
-            sThumb = 'films.png'
+            sThumb = 'films.png'#En attendant de trouver une solution
             sTitle = aEntry[1]      
             sQual=aEntry [2]
             sDisplayTitle = sTitle + ' [' + sQual + ']'
