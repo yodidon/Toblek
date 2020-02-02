@@ -17,7 +17,7 @@ SITE_IDENTIFIER = 'Toblek_com' #identifant (nom de votre fichier) remplacez les 
 SITE_NAME = 'Toblek' #nom que xbmc affiche
 SITE_DESC = 'films en streaming, streaming hd, streaming 720p, Films/séries, récent' #description courte de votre source
 
-URL_MAIN = 'http://toblek.com/' #url de votre source
+URL_MAIN = 'http://toblek.com/' #url de votre source j'ai enlever le tolbekk/ pour le mettre sur movie news ça m'enleve une rerreur sur les log
 
 #definis les url pour les catégories principale, ceci est automatique, si la definition est présente elle sera affichee.
 #LA RECHERCHE GLOBAL N'UTILE PAS showSearch MAIS DIRECTEMENT LA FONCTION INSCRITE DANS LA VARIABLE URL_SEARCH_*
