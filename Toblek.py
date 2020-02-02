@@ -250,7 +250,7 @@ def showMovies(sSearch = ''):
             sUrl2 = aEntry[0]
             sThumb = 'films.png'#En attendant de trouver une solution
             sTitle = aEntry[1]      
-            sQual=aEntry [2]
+            #sQual=aEntry [2] a remettre quand avec le bon regex
             sDisplayTitle = sTitle + ' [' + sQual + ']'
             sDesc = ''
             #if not sThumb.startswith('http'):
